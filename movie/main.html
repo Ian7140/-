@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ZZAPFLIX</title>
+</head>
+<body>
+<header>
+    <div id="title" onclick="location.href='main.html'">
+        <img src="./image/logo.webp" alt="Movie Web 로고">
+    </div>
+    <form id="searchForm">
+        <input type="text" class="search" id="searchInput" placeholder="영화 제목 입력" aria-label="영화 제목 입력" />
+        <button id="searchButton" aria-label="검색 버튼">검색</button>
+    </form>
+</header>
+<main id="content"></main>
+<div class="pagination"  style="display: flex; text-align: center; justify-content: center;"></div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
